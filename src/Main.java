@@ -16,5 +16,11 @@ public class Main {
         String surname = input.nextLine();
         System.out.println("Surname: " + surname);
 
+        //Calculation of the age
+        System.out.println("You were born in which year");
+        int year = input.nextInt();
+        System.out.println("Age: " + (2021 - year) );
+
+
     }
 }
